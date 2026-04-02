@@ -5,7 +5,7 @@ find_path(GUROBI_INCLUDE_DIRS
 
 # Please Change line 8 if you are using different gurobi verison
 find_library(GUROBI_LIBRARY
-  NAMES gurobi gurobi110 gurobi120
+  NAMES gurobi gurobi110 gurobi120 gurobi130 gurobi131
   HINTS ${GUROBI_DIR} $ENV{GUROBI_HOME}
   PATH_SUFFIXES lib)
 
