@@ -1,4 +1,4 @@
-add_library(PIMSupport SHARED
+add_library(PIMSupport STATIC
     MILP.cpp
 )
 

@@ -9,9 +9,7 @@ add_llvm_tool(pim-opt
 llvm_update_compile_flags(pim-opt)
 target_link_libraries(pim-opt
   PRIVATE
-    PIMAnalysis
     PIMDataLayout
-    PIMDetailLayout
     PIMSupport
     MLIRIR
     MLIROptLib

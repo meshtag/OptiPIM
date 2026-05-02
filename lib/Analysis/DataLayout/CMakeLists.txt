@@ -1,4 +1,4 @@
-add_library(PIMDataLayout SHARED
+add_library(PIMDataLayout STATIC
     DataLayoutPass.cpp
     DataLayoutMILP.cpp
     DataLayoutConv2D.cpp

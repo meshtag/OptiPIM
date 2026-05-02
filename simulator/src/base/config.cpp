@@ -100,7 +100,7 @@ void Config::Details::override_configs(YAML::Node config, const std::vector<std:
     for (const auto& token : tokens) {
       std::vector<uint> indices;
 
-      std::regex match_brackets("\\[(\\d+)]");
+      std::regex match_brackets("\\[([0-9]+)\\]");
       std::sregex_iterator it(token.begin(), token.end(), match_brackets);
       std::sregex_iterator end;
 
